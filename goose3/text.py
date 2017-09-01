@@ -123,8 +123,10 @@ class WordStats(object):
 
 
 class StopWords(object):
-
-    PUNCTUATION = re.compile("[^\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\p{Nd}\\p{Pc}\\s]")
+    
+    # Below is not used according to this:
+    # https://github.com/goose3/goose3/pull/6/files
+    # PUNCTUATION = re.compile("[^\\p{Ll}\\p{Lu}\\p{Lt}\\p{Lo}\\p{Nd}\\p{Pc}\\s]")
     _cached_stop_words = {}
 
     def __init__(self, language='en'):
