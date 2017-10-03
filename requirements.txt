@@ -1,10 +1,11 @@
-requests
-Pillow
-lxml
+beautifulsoup4==4.6.0
+Pillow==3.2.0
+requests==2.18.4
+
 cssselect
+lxml
 jieba
-beautifulsoup4
-nltk
-six
 nose
+nltk
 requests_mock
+six
